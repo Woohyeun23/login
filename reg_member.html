@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <script src="reg_member.js"></script>
+    <script src="popup.js"></script>
+    <link rel="stylesheet" href="fieldset.css">
+    <link rel="stylesheet" href="reg_member.css">
+    <title>회원가입</title>
+</head>
+<body>
+    <div>
+        <fieldset id="fid">
+            <legend><h1>- 회원가입 -</h1></legend>
+        <form action="#" method="GET" id="form">
+            <input type="text" id="id" minlength="6" maxlength="12" required placeholder="id(6자리 이상, 12자리 이하)">
+            <br>
+            <input type="password" id="pw" minlength="8" maxlength="15" required placeholder="pw(8자리 이상, 15자리 이하)">
+            <br>
+            <input type="password" id="pw_re" minlength="8" maxlength="15" required placeholder="pw재입력">
+            <br>
+            <input type="text" id="user_name" minlength="2" maxlength="12" required placeholder="이름">
+            <br>
+            <input type="email" id="email" minlength="4" maxlength="12" required placeholder="이메일">
+            <br>
+            <label for="birth_u">생년월일</label>
+            <br>
+            <input type="number" id="birth_y" minlength="4" maxlength="4" required placeholder="1999">
+            <select id="birth_m">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+            
+            <select id="birth_d">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+            </select>
+            <h4>성별</h4>
+            <input type="radio" name="sex" value="M" checked>남자
+            <input type="radio" name="sex" value="W">여자
+            <hr>
+            <input type="tel" id="tell_1" minlength="3" maxlength="3" value="010" required>-
+            <input type="tel" id="tell_2" minlength="4" maxlength="4" required>-
+            <input type="tel" id="tell_3" minlength="4" maxlength="4" required>
+            <br><br>
+            <input type="submit" id="submit" value="회원가입" onclick="check2();">
+            <input type="reset" id="reset">
+
+        </form>
+    </fieldset>
+    </div>
+    
+    <div id="popup"><br>공지사항이 있는데.....
+        <input type="button" id="btn_close" value="닫기" onclick="Closepopup()">
+    </div>
+</body>
+</html>

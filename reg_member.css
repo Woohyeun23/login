@@ -1,0 +1,13 @@
+#popup{
+    width: 100px; height: 100px;
+    position: fixed;
+    right: 50px;
+    bottom: 200px;
+    background-color: paleturquoise;
+}
+
+#btn_close {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+ }

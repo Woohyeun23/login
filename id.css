@@ -1,0 +1,110 @@
+
+
+#box{
+      /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+      /* background-image: url('https://pds.joongang.co.kr//news/component/htmlphoto_mmdata/201805/06/c339db49-4ff4-4559-88fa-df99955c35a6.jpg'); */
+      background-color: rgb(255, 255, 255);
+    background-size: 1300px auto;
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+#all{
+   display: flex;
+   flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+#login{
+
+    width: 300px; height: 100px;
+   /* position: absolute;
+   top: 500px; */
+
+
+    background-color: greenyellow;
+    border-radius: 1em;
+    border: 4px rgb(0, 60, 255) solid;
+    /* margin-left: auto;
+    margin-right: auto; */
+    padding-bottom : 30px;
+    padding-top: 30px;
+    text-align: center;
+
+
+    box-shadow: 5px 5px 5px;
+    
+    font-size: 1.2em;
+    font-style: oblique;
+    font-weight: 300;
+    color: rgb(255, 0, 0);
+}
+
+#btx {
+  box-shadow: 1px 1px 1px;
+}
+
+/* #a{
+
+ justify-content: center; 
+   align-items: center; 
+
+  
+} */
+
+#time1{
+  display: flex;
+   justify-content: center; 
+   align-items: center; 
+  position: absolute;
+  top: 100px;
+  
+ 
+   width: 500px; height: 300px;
+
+
+}
+
+#time{
+
+  
+  font-size: 4em; 
+
+  background-color: rgb(255, 252, 153);
+  border: 14px black double;
+  border-radius: 0.5em;
+
+
+  text-align: center;
+  
+
+
+}
+#btn_time{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+/* 
+#time{
+  width: 300px; height: 100px;
+  font-size: 1.0em; 
+  color: greenyellow;
+  background-color: darkblue;
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+}
+#btn_time{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+} */
